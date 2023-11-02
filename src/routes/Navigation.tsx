@@ -21,7 +21,7 @@ export const Navigation = () => {
                 to="/"
                 className={({ isActive }) => (isActive ? "nav-active" : "")}
               >
-                Shopping
+                Shopping Page
               </NavLink>
             </li>
             <li>

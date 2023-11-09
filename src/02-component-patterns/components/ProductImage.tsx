@@ -19,7 +19,7 @@ export const ProductImage = ({ img, alt, className, style }: Props) => {
       className={`${styles.productImg} ${className}`}
       style={style}
       src={imgToShow}
-      alt={alt ? alt : product.title}
+      alt={alt ? alt : product?.title ? product.title : "No Description"}
     />
   );
 };
